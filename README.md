@@ -169,6 +169,9 @@ In conclusion, securing routes and enhancing user authentication are important f
 ## References <a name="references"></a>
 
 [Complete guide to authentication with React Router v6](https://blog.logrocket.com/complete-guide-authentication-with-react-router-v6/)
+
 [Implementing Protected Route and Authentication in React-JS](https://dev.to/olumidesamuel_/implementing-protected-route-and-authentication-in-react-js-3cl4)
+
 [React Router 6: Private Routes (alias Protected Routes](https://www.robinwieruch.de/react-router-private-routes/)
+
 [Implement Authentication and Protect Routes in React](https://levelup.gitconnected.com/implement-authentication-and-protect-routes-in-react-135a60b1e16f)
