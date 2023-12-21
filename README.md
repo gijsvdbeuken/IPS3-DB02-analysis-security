@@ -36,7 +36,7 @@ How can the web application manage user profiles and enable personalization with
 
 ### Goal
 
-**The primary goal of this research document is to investigate, analyze, and propose effective strategies for securing web applications by implementing secure routes, restricting access to specific pages through user codes, and enhancing user authentication mechanisms. The study aims to provide a comprehensive understanding of the challenges posed by the current system, explore viable security mechanisms, examine user authentication strategies, delve into user profile management and personalization within secure environments, and present practical case studies.**
+**The primary goal of this research document is to investigate, analyze, and propose effective strategies for securing web applications by implementing secure routes, restricting access to specific pages through user codes, and enhancing user authentication mechanisms. The research aims to provide a comprehensive understanding of the challenges posed by the current system, explore viable security mechanisms, examine user authentication strategies, delve into user profile management and personalization within secure environments, and present practical case studies.**
 
 **Ultimately, the research document seeks to contribute valuable insights and recommendations for improving the security and flexibility of web applications, ensuring a robust and user-friendly experience for authorized users while safeguarding sensitive information.**
 
@@ -46,7 +46,7 @@ How can the web application manage user profiles and enable personalization with
 
 ### React and User Authentication
 
-React, a widely-used JavaScript library for building user interfaces, enables developers to construct reusable components, making it a favored tool for intricate web applications. User authentication is a pivotal element of any web application, and there are numerous resources offering insights into implementing effective authentication mechanisms in React applications.
+React, a widely-used JavaScript library for building user interfaces, enables developers to construct reusable components, making it a favored tool for intricate web applications. User authentication is a large element of any web application, and there are numerous resources offering insights into implementing effective authentication mechanisms in React applications.
 
 For instance, the "Complete Guide: Authentication with React Router v6" article presents a comprehensive tutorial on incorporating authentication with React Router. It covers the process of initiating a new React project, installing React Router, and configuring routes. The tutorial also underscores the utilization of the useAuth hook for proficiently managing user authentication states.
 
@@ -56,7 +56,7 @@ Similarly, the article titled "Implementing Protected Route and Authentication i
 
 The utilization of role-based access control (RBAC) is a prevalent method for overseeing user permissions in web applications. This approach entails assigning specific roles to users and bestowing permissions according to these designated roles. Numerous resources offer valuable guidance on integrating RBAC into React applications.
 
-For example, an article titled "Implement Authentication and Protect Routes in Your React Application" provides a detailed, step-by-step guide on incorporating authentication and safeguarding routes within a React environment. The article outlines the creation of a custom ProtectedRoute component designed to manage incoming requests, rendering the specified component if the user possesses authentication or redirecting them to the login page in the absence of authentication.
+For example, an article titled "Implement Authentication and Protect Routes in React" provides a detailed, step-by-step guide on incorporating authentication and safeguarding routes within a React environment. The article outlines the creation of a custom ProtectedRoute component designed to manage incoming requests, rendering the specified component if the user possesses authentication or redirecting them to the login page in the absence of authentication.
 
 ## Chapter 3: Current System Analysis <a name="current-system-analysis"></a>
 
@@ -64,7 +64,7 @@ For example, an article titled "Implement Authentication and Protect Routes in Y
 
 ### Existing Security Mechanisms
 
-The current system employs a basic level of user authentication, in which users are required to input their credentials (typically a username and password) to gain access to the web application. This authentication process verifies the user's identity, but it does not ensure role-based access control or protect specific routes in the application.
+A basic web application employs a basic level of user authentication, in which users are required to input their credentials (typically a username and password) to gain access to the web application. This authentication process verifies the user's identity, but it does not ensure role-based access control or protect specific routes in the application.
 
 The system does not currently utilize token-based authentication, which is a more secure method of verifying user identities. In token-based authentication, upon successful login, the server generates a unique token associated with the user. This token is then included in the header of subsequent requests, allowing the server to authenticate the user for each request.
 
@@ -95,7 +95,7 @@ const token = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET);
 
 ### Role-Based Authentication
 
-Role-Based Access Control (RBAC) is a strategy employed to govern user permissions in web applications. This method entails allotting particular roles to users and conferring permissions contingent on these roles. For example, access to specific pages within the application may be restricted to users with an 'admin' role.
+Role-Based Access Control (RBAC) is a strategy employed to govern user permissions in web applications. This method entails allotting particular roles to users and conferring permissions contingent on these roles. For example, access to specific pages within the application may be restricted to users with an 'editor' role.
 
 The provided code snippet showcases the creation of a higher-order component designed to verify whether the user's role aligns with the specified role before rendering a component. In cases where the roles don't correspond, the user is redirected to the home page.
 
@@ -150,7 +150,7 @@ Biometric authentication techniques such as fingerprint scanning, facial recogni
 
 ### Integration with Decentralized Identity Systems
 
-Decentralized identity systems, particularly those based on blockchain technology, are gaining momentum for their capacity to deliver secure, tamper-proof, and privacy-preserving identity verification. These systems could be seamlessly integrated into web applications to establish robust user authentication mechanisms. Users could autonomously manage their identities through digital wallets, and verification of identities could be achieved without reliance on a centralized authority.
+Decentralized identity systems, particularly those based on blockchain technology, are gaining momentum for their capacity to deliver secure and privacy-preserving identity verification. These systems could be seamlessly integrated into web applications to establish robust user authentication mechanisms. Users could autonomously manage their identities through digital wallets, and verification of identities could be achieved without reliance on a centralized authority.
 
 ## Chapter 8: Conclusion <a name="conclusion"></a>
 
@@ -168,4 +168,7 @@ In conclusion, securing routes and enhancing user authentication are important f
 
 ## References <a name="references"></a>
 
-[Google](https://www.google.com)
+[Complete guide to authentication with React Router v6](https://blog.logrocket.com/complete-guide-authentication-with-react-router-v6/)
+[Implementing Protected Route and Authentication in React-JS](https://dev.to/olumidesamuel_/implementing-protected-route-and-authentication-in-react-js-3cl4)
+[React Router 6: Private Routes (alias Protected Routes](https://www.robinwieruch.de/react-router-private-routes/)
+[Implement Authentication and Protect Routes in React](https://levelup.gitconnected.com/implement-authentication-and-protect-routes-in-react-135a60b1e16f)
