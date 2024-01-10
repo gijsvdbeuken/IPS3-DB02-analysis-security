@@ -2,7 +2,7 @@
 
 _Made by Gijs van den Beuken_
 
-![Computer screen with coding window](url)
+![Computer screen with coding window](https://github.com/gijsvdbeuken/IPS3-DB02-Thesis-security/blob/main/assets/lautaro-andreani-xkBaqlcqeb4-unsplash.jpg)
 
 ## Table of Contents
 
