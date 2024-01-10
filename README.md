@@ -2,6 +2,8 @@
 
 _Made by Gijs van den Beuken_
 
+![Computer screen with coding window](url)
+
 ## Table of Contents
 
 - [Chapter 1: Introduction](#introduction)
