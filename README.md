@@ -14,6 +14,7 @@ _Made by Gijs van den Beuken_
 - [Chapter 6: Case Studies](#case-studies)
 - [Chapter 7: Future Developments](#future-developments)
 - [Chapter 8: Conclusion](#conclusion)
+- [Sources](#sources)
 - [References](#references)
 
 ## Chapter 1: Introduction <a name="introduction"></a>
@@ -168,12 +169,14 @@ Looking ahead, the research identified future trends, such as the rise of biomet
 
 In conclusion, securing routes and enhancing user authentication are important for information security and improved user experiences in web applications. Despite current challenges, the strategies discussed offer solutions to enhance the security and flexibility of web applications. Anticipated developments hold promise for further improvements, urging developers and administrators to stay abreast of advancements for crafting robust and user-friendly web applications.
 
+## Sources <a name="sources"></a>
+
+[React Router 6: Private Routes (alias Protected Routes](https://www.robinwieruch.de/react-router-private-routes/)
+
+[Implement Authentication and Protect Routes in React](https://levelup.gitconnected.com/implement-authentication-and-protect-routes-in-react-135a60b1e16f)
+
 ## References <a name="references"></a>
 
 [Complete guide to authentication with React Router v6](https://blog.logrocket.com/complete-guide-authentication-with-react-router-v6/)
 
 [Implementing Protected Route and Authentication in React-JS](https://dev.to/olumidesamuel_/implementing-protected-route-and-authentication-in-react-js-3cl4)
-
-[React Router 6: Private Routes (alias Protected Routes](https://www.robinwieruch.de/react-router-private-routes/)
-
-[Implement Authentication and Protect Routes in React](https://levelup.gitconnected.com/implement-authentication-and-protect-routes-in-react-135a60b1e16f)
