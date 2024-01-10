@@ -51,9 +51,9 @@ How can the web application manage user profiles and enable personalization with
 
 React, a widely-used JavaScript library for building user interfaces, enables developers to construct reusable components, making it a favored tool for intricate web applications. User authentication is a large element of any web application, and there are numerous resources offering insights into implementing effective authentication mechanisms in React applications.
 
-For instance, the "Complete Guide: Authentication with React Router v6" article presents a comprehensive tutorial on incorporating authentication with React Router. It covers the process of initiating a new React project, installing React Router, and configuring routes. The tutorial also underscores the utilization of the useAuth hook for proficiently managing user authentication states.
+For instance, the [Complete Guide: Authentication with React Router v6](#references) article presents a comprehensive tutorial on incorporating authentication with React Router. It covers the process of initiating a new React project, installing React Router, and configuring routes. The tutorial also underscores the utilization of the useAuth hook for proficiently managing user authentication states.
 
-Similarly, the article titled "Implementing Protected Route and Authentication in React.js" explores the application of React Router for handling routing in web applications. It stresses the significance of proper application structuring and securing routes.
+Similarly, the article titled [Implementing Protected Route and Authentication in React.js](#references) explores the application of React Router for handling routing in web applications. It stresses the significance of proper application structuring and securing routes.
 
 ### Role-Based Access Control in React
 
