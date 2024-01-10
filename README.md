@@ -27,7 +27,7 @@ The current system faces the challenge that some pages in the application should
 
 ### Main question
 
-How can a web application effectively implement secure routes, allowing users access only to specific pages, and what mechanisms are necessary to ensure a flexible user experience?
+How can a web application effectively implement secure routes, allowing users access only to specific pages?
 
 ### Sub-question 1
 
